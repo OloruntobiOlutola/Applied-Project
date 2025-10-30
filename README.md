@@ -136,6 +136,8 @@ Datasets:
 Inspirations: 
 - [Temperature by Country study](https://www.kaggle.com/code/amelinvladislav/map-of-temperatures-and-analysis-of-global-warming)
 
+Sources:
+- [Sampling in statistics and data analytics](https://medium.com/@narula.rashmi888/understanding-the-importance-of-sampling-in-statistics-and-data-analytics-47e58993ea5e)
 
 ## License & Authors
 - License: MIT
