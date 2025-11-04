@@ -68,8 +68,8 @@ Which statistics indicators can characterise the trends or the temperature varia
 
 - [ ] Select 3 sampling indicators that are informative. Justify each choice.
   - [ ] Spatial Coverage: Portion of country with measures (nb_country_with_data / total_nb_country)*100 by period. This indicator evaluates the geographical representativeness of data and allows to identify potential bias in the mondial coverage.
-  - [ ] Decadal mean temperature: mean by decade (useful for smoothing variability).
-  - [ ] Annual standard deviation: evaluate the evolution of the climate variability (standard deviation of the temperature distribution in one year).
+  - [x] Decadal mean temperature: mean by decade (useful for smoothing variability).
+  - [x] Annual standard deviation: evaluate the evolution of the climate variability (standard deviation of the temperature distribution in one year).
   - [ ] Annual coefficient of variation (CV = std/mean): express the relative variability to the mean. It indicates how much the temperature fluctuates in proportion to its average value. For example, if CV = 10%, then the annual average temperature is 10°C and the standard deviation is 1°C.
   - [ ] Autocorrelation (lag-1): measure whether the temperatures of one year depend on those of the previous year. A high autocorrelation indicates a climate memory effect, 
   - [ ] Skewness across the year: assesses the evolution of the asymmetry of the distribution. If there is symmetry around the mean, then the seasons are balanced. If the skewness is > 0, then there is a right tail and the lower temperatures are more frequent. If the skewness is < 0, then there is a left tail and the high temperatures are more frequent.
