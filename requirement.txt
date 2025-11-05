@@ -6,3 +6,4 @@ scikit-learn
 Flask
 pymannkendall
 kagglehub
+statsmodels
