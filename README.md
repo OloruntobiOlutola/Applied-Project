@@ -183,8 +183,8 @@ MIT License
 
 ## 👥 Authors
 
-- [Julie DORNAT](https://github.com/JulieDornat)
-- [Oloruntobi OLUTOLA](https://github.com/OloruntobiOlutola)
-- [Sukhjot KAUR](https://github.com/Sukhjot-Kaur-AI)
+- [Julie DORNAT](https://github.com/JulieDornat) : 22001111
+- [Oloruntobi OLUTOLA](https://github.com/OloruntobiOlutola) 22504382
+- [Sukhjot KAUR](https://github.com/Sukhjot-Kaur-AI) 22510515
 
 For questions or contributions, please open an issue or submit a pull request.
