@@ -104,29 +104,30 @@ This dataset enables multiple complementary analyses of climate trends and uncer
 - History events such as the modernisation and industrialisation altered measurement consistency. In the 1940s, the aiports constructions caused the moving of weather station.
 
 ## Repository contents
-- README.md — this file
-- data/ — raw and processed CSVs (raw not included; see Data section)
-- notebooks/ — exploratory analyses and reproducible reports (Jupyter)
-- src/ — analysis scripts and utilities (data cleaning, modeling, plotting)
-- results/ — figures, tables and summary outputs
-- requirements.txt — Python package dependencies
+- [README.md](README.md) — this file
+- [notebooks/](notebooks/) — exploratory analyses and reproducible reports (Jupyter)
+  - [app.ipynb](notebooks/app.ipynb) — main analysis notebook
+- [requirement.txt](requirement.txt) — Python package dependencies
+- .venv/ — Python virtual environment (not tracked in git)
 
 ## Quick start
-1. Download the Kaggle dataset and place the CSV(s) into data/raw/:
-    - https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data
-2. Set up environment:
-    - python3 -m venv .venv && source .venv/bin/activate
-    - pip install -r requirements.txt
-3. Run preprocessing and analyses:
-    - python src/prepare_data.py --input data/raw/GlobalLandTemperaturesByCountry.csv --output data/processed/
-    - jupyter lab notebooks/Exploratory.ipynb
-    - python src/run_analysis.py --config config/analysis.yaml
+1. Set up environment:
+    ```bash
+    python3 -m venv .venv
+    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+    pip install -r requirement.txt
+    ```
+2. Run analyses:
+    ```bash
+    jupyter lab notebooks/app.ipynb
+    ```
+
+The dataset is accessed directly from Kaggle using the `kagglehub` library (no manual download required).
 
 ## Reproducibility
-- Notebooks are annotated and include the commands used to reproduce figures in results/.
-- Scripts accept input/output paths and configuration files for deterministic runs.
-- Raw data not stored in repo due to size; download from Kaggle and follow steps above.
-- Use conda if preferred — environment.yml can be generated from requirements.txt.
+- The main analysis notebook [app.ipynb](notebooks/app.ipynb) contains all exploratory analyses and visualizations
+- Data is accessed directly from Kaggle via the `kagglehub` library
+- Use conda if preferred — create environment from requirement.txt
 
 ## Resources
 
@@ -138,6 +139,7 @@ Inspirations:
 
 Sources:
 - [Sampling in statistics and data analytics](https://medium.com/@narula.rashmi888/understanding-the-importance-of-sampling-in-statistics-and-data-analytics-47e58993ea5e)
+
 
 ## License & Authors
 - License: MIT
